@@ -20,7 +20,7 @@ config.email = {
     port: 25,
     host: 'smtp.163.com',
     from: 'onlyone_329@163.com',
-    pass: 'amwewihcv128'
+    pass: 'password'
 }
 
 //·ÖÀà
