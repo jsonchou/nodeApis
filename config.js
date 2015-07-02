@@ -8,7 +8,7 @@ var config = {
 
 //db≈‰÷√
 config.db = {
-    email: 'jsonchou329@gmail.com',
+    email: 'name@gmail.com',
     user: 'root',
     pass: 'password',
     host: 'mongodb://10.1.13.18:27017/test'
@@ -19,7 +19,7 @@ config.email = {
     secure:true,
     port: 25,
     host: 'smtp.163.com',
-    from: 'onlyone_329@163.com',
+    from: 'name@163.com',
     pass: 'password'
 }
 
