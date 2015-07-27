@@ -15,14 +15,20 @@ router.get('/*', function (req, res, next) {
 
     util.log(req.params);
 
-    var files = req.params[0];
+    var files = req.params[0].toLowerCase();
     var arr = [];
     if (files) {
         arr = files.split(',');
     }
 
-    res.header('Content-type', 'text/javascript');
+    if (files.indexOf('.css') > -1) {
+        res.header('Content-type', 'text/css');
+    } else if (files.indexOf('.js') > -1) {
+        res.header('Content-type', 'text/javascript');
+    }
+
     res.header('Charset', 'utf8');
+
 
     var sb = [];
 

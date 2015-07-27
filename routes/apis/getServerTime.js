@@ -19,6 +19,7 @@ router.get('/', function (req, res, next) {
 
     res.header('Content-type', 'application/json');
     res.header('Charset', 'utf8');
+
     res.jsonp(obj);
 
 });

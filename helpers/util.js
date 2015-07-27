@@ -1,9 +1,10 @@
-﻿
+﻿"use strict";
+
 //jsonchou util
 exports.log = function (msg) {
-    console.log('####################---时间：' + new Date().toLocaleString());
-    console.log(msg);
-    console.log('####################');
+    console.log('\r\n####################---时间：' + new Date().toLocaleString());
+    console.log("\r\n" + msg + "\r\n");
+    console.log('####################\r\n');
 }
 
 //过滤危险字符
@@ -31,3 +32,4 @@ exports.arrayUnique = function (arr) {
     }
     return arr;
 }
+

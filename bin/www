@@ -8,6 +8,7 @@ var app = require('../app');
 
 config = require('../config');
 util = require('../helpers/util');
+logger = require('../helpers/logger');
 
 var debug = require('debug')('nodeApis:server');
 var http = require('http');

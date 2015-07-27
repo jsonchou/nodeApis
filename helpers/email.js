@@ -1,4 +1,6 @@
-﻿var nodemailer = require('nodemailer');
+﻿"use strict";
+
+var nodemailer = require('nodemailer');
 var smtpTransport = require('nodemailer-smtp-transport');
 
 //如果您的邮件客户端不在上述列出的范围内，您可以尝试如下通用配置：
